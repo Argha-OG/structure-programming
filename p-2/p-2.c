@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int i;
-    long long ll;
-    char c;
-    float f;
-    double d;
+    int integer;
+    long long longInteger;
+    char character;
+    float floatingPoint;
+    double doublePrecision;
 
-    // Taking input for all variables
-    scanf("%d %lld %c %f %lf", &i, &ll, &c, &f, &d);
+    scanf("%d %lld %c %f %lf", &integer, &longInteger, &character, &floatingPoint, &doublePrecision);
 
-    // Printing each value on a new line
-    printf("%d\n", i);
-    printf("%lld\n", ll);
-    printf("%c\n", c);
-    printf("%.2f\n", f); // Floating point number with 2 decimal precision
-    printf("%.1lf\n", d); // Double with 1 decimal precision 
+    printf("%d\n", integer);
+    printf("%lld\n", longInteger);
+    printf("%c\n", character);
+    printf("%f\n", floatingPoint);
+    printf("%lf\n", doublePrecision);
 
     return 0;
 }
