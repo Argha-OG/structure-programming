@@ -1,19 +1,21 @@
-#include <stdio.h>
-
-int main() {
-    int integer;
-    long long longInteger;
-    char character;
-    float floatingPoint;
-    double doublePrecision;
-
-    scanf("%d %lld %c %f %lf", &integer, &longInteger, &character, &floatingPoint, &doublePrecision);
-
-    printf("%d\n", integer);
-    printf("%lld\n", longInteger);
-    printf("%c\n", character);
-    printf("%f\n", floatingPoint);
-    printf("%lf\n", doublePrecision);
-
+#include<stdio.h>
+int main()
+{
+    int x;
+    long long y;
+    char ch[10];
+    float t;
+    double d;
+    scanf("%d",&x);
+    scanf("%lld",&y);
+    scanf("%s",&ch);
+    scanf("%f",&t);
+    scanf("%lf",&d);
+    printf("%d\n",x);
+    printf("%lld\n",y);
+    printf("%s\n",ch);
+    printf("%.2f\n",t);
+    printf("%.1f\n",d);
     return 0;
+
 }
