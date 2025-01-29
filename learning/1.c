@@ -42,3 +42,15 @@ int main() {
     printf("First number is %d", variable1);
     return 0;
 }
+
+//Variable Naming Conventions
+int main() {
+    
+    int firstNumber = 30;
+    printf("First number is %d", firstNumber);
+
+    int secondNumber = firstNumber;
+    printf("\nSecond number is %d", secondNumber);
+
+    return 0;
+}
