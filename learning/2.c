@@ -44,7 +44,14 @@ int main() {
     return 0;
 }
 
+//sizeof() Operator
+int main() {
+    
+    int age = 30;
+    printf("Size of int is %d", sizeof(age));
 
+    return 0;
+}
 
 
 
