@@ -8,5 +8,20 @@
 // 4. char (1 byte) | %c for printing
 
 
+#include <stdio.h>
+//int
+int main() {
+    
+    int age = 30;
+    printf("My age is %d", age);
+
+    return 0;
+    
+}
+
+
+
+
+
 
 
