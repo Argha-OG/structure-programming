@@ -36,3 +36,9 @@ int main() {
 }
 
 //Declaring Multiple variables at Once
+int main() {
+    
+    int variable1, variable2 = 30;
+    printf("First number is %d", variable1);
+    return 0;
+}
