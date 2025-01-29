@@ -26,7 +26,7 @@ int main() {
     printf("My height is %f", height);
 
     double weight = 70.5;
-    printf("\nMy weight is %lf", weight);
+    printf("\nMy weight is %.2lf", weight);
 
     return 0;
 }
