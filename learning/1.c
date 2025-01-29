@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-//type1
-// int age;
-// age = 30;
+//type1 input
+int age;
+age = 30;
 
-//type2
-// int age = 30;
+//type2 input
+int age = 30;
 
 //Change value of variables
 int main() {
@@ -34,3 +34,5 @@ int main() {
 
     return 0;
 }
+
+//Declaring Multiple variables at Once
