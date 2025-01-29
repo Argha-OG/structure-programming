@@ -19,6 +19,19 @@ int main() {
     
 }
 
+//float and double
+int main() {
+    
+    float height = 5.8;
+    printf("My height is %f", height);
+
+    double weight = 70.5;
+    printf("\nMy weight is %lf", weight);
+
+    return 0;
+}
+
+
 
 
 
