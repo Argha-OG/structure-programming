@@ -32,6 +32,18 @@ int main() {
     return 0;
 }
 
+//char
+int main() {
+
+    char character = 'A';
+    printf("My character is %c", character);
+
+    //ASCII value of character
+    printf("\n%d", character);
+
+    return 0;
+}
+
 
 
 
