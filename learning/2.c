@@ -25,6 +25,7 @@ int main() {
     float height = 5.8f;
     printf("My height is %f", height);
 
+    //suggested way to print double
     double weight = 70.5;
     printf("\nMy weight is %.2lf", weight);
 
