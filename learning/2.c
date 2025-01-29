@@ -22,7 +22,7 @@ int main() {
 //float and double
 int main() {
     
-    float height = 5.8;
+    float height = 5.8f;
     printf("My height is %f", height);
 
     double weight = 70.5;
