@@ -1,0 +1,12 @@
+//Data types in C:
+
+//Different data types in C are used to store different types of data. The most common data types in C are int, char, float, double, and void.
+
+// 1. int   (4 bytes) | %d for printing
+// 2. double (8 bytes) | %lf for printing
+// 3. float (4 bytes) | %f for printing
+// 4. char (1 byte) | %c for printing
+
+
+
+
