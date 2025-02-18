@@ -33,3 +33,25 @@ int main() {
     return 0;
 }
 
+// Do-While Loop
+// The do-while loop is similar to the while loop except that the condition is checked at the end of the loop. This means that the body of the loop is executed at least once.
+//
+// The syntax of do-while loop is:
+//
+// do {
+//     statement(s);
+// } while (condition);
+// Here, the body of the loop is executed
+//
+// Example:
+#include <stdio.h>
+int main() {
+    int i = 1;
+    do {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 5);
+    return 0;
+}
+// In the above example, the loop will iterate until the value of i is less than or equal to 5.
+
